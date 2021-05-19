@@ -82,25 +82,6 @@ export default function EmailList() {
             time={new Date(timestamp?.seconds * 1000).toUTCString()}
           />
         ))}
-        <EmailRow
-          title="Twitch"
-          subject="Hello there"
-          description="Testeando ando"
-          time="17 feb"
-        />
-        <EmailRow
-          title="LinkedIn"
-          subject="Hello there"
-          description="Find your next job on LinkedIn.
-          Discover new jobs"
-          time="16 feb"
-        />
-        <EmailRow
-          title="Twitch"
-          subject="Hello there"
-          description="Testeando ando"
-          time="15 feb"
-        />
       </div>
     </div>
   );
